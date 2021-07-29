@@ -1,2 +1,2 @@
 pymupdf
-cv2
+opencv-python

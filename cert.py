@@ -8,6 +8,6 @@ import base64
     
 st.header('Customize your COVID certificate')    
 
-st.file_uploader("Upload Covid certificate...", type="pdf"):
+st.file_uploader("Upload Covid certificate...", type="pdf")
 doc = fitz.open('certificate.pdf')
     
